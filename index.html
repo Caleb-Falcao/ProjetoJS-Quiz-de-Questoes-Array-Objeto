@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <script src="jquery-3.6.0.min.js" defer></script>
+    <script src="quiz.js" defer></script>
+    <link rel="shortcut icon" href="img/play.png">
+    <title>Play Quiz</title>
+</head>
+
+<body>
+    <section class="container">
+        <div id="inicio">
+
+            <img src="img/play.png" alt="">
+
+            <div class="container-quiz ">
+                <h1 id="pergunta">Questão</h1>
+                <h3>Escolha a alternativa correta:
+                </h3>
+                <button type="button" class="btn-resposta" id="btn-r0">1</button>
+                <button type="button" class="btn-resposta" id="btn-r1">2</button>
+                <button type="button" class="btn-resposta" id="btn-r2">3</button>
+                <button type="button" class="btn-resposta" id="btn-r3">4</button>
+            </div>
+
+            <div class="btn">
+                <!-- botao jogar tem DESAPARECER ASSIM QUE CLICADO -->
+                <button class="btn-jogar">Jogar</button>
+                <!-- reiniciar nao deve aparecer junto com a imagem -->
+                <button class="btn-reiniciar">Restart</button>
+                <button class="btn-saibamais"><a href="#saber-mais">Saber Mais</a></button>
+
+                <!-- <button class="btn-prosseguir">Proximo</button> Botão Prosseguir-->
+            </div>
+        </div>
+    </section>
+
+    <!------------Pontuação--------------->
+    <section class="container-pontuacao">
+        <div class="caixa-pontuacao">
+            <h1>Sua Pontuacão! </h1>
+            <p id="pontuacaof">0</p>
+            <button class="btn-reiniciar">Restart</button>
+            <button class="btn-saibamais"><a href="#saber-mais">Saber Mais</a></button>
+        </div>
+    </section>
+
+    <!------------------>
+    <section class="saber-mais">
+        <div class="menu-autores">
+            <ul>
+                <li>
+                    <h1 id="bem-vindo">Bem-vindo ao Play Quiz!</h1>
+                </li>
+                <li>
+                    <h2>Como Jogar?</h2>
+                    <p>Clique em jogar, leia a pergunta e depois escolha a
+                        alternativa correta. </p>
+                </li>
+
+                <li>
+                    <h2>Desenvolvido por:</h2>
+                    <p>Caleb Alves</p>
+                    <p>Fernanda Borges</p>
+                </li>
+            </ul>
+            <button class="btn-voltar"><a href="#container">Voltar</a></button>
+        </div>
+    </section>
+</body>
+
+</html>
