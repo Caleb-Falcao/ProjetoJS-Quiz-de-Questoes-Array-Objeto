@@ -3,7 +3,7 @@ let questoes = [
     {
         pergunta: ['Quem descobriu o Brasil?'],
         alternativas: ['Indiana Jones', 'Deodoro da Fonseca','Luiz Inacio', 'Pedro Alvares Cabral'],
-        resposta: 2
+        resposta: 3
     },
     {
         pergunta: ['Qual é a segunda letra do alfabeto?'],
