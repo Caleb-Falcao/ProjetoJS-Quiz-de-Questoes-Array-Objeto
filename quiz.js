@@ -1,9 +1,9 @@
 //Array de questões contendo as perguntas, alternativas e as respostas
 let questoes = [
     {
-        pergunta: ['Qual é a primeira letra do alfabeto?'],
-        alternativas: ['Letra B', 'Letra A', 'Letra C', 'Letra E'],
-        resposta: 1
+        pergunta: ['Quem descobriu o Brasil?'],
+        alternativas: ['Indiana Jones', 'Deodoro da Fonseca', 'Pedro Alvares Cabral', 'Lula'],
+        resposta: 3
     },
     {
         pergunta: ['Qual é a segunda letra do alfabeto?'],
