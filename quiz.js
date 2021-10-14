@@ -2,7 +2,7 @@
 let questoes = [
     {
         pergunta: ['Quem descobriu o Brasil?'],
-        alternativas: ['Indiana Jones', 'Deodoro da Fonseca', 'Pedro Alvares Cabral', 'Lula'],
+        alternativas: ['Indiana Jones', 'Deodoro da Fonseca','Luiz Inacio', 'Pedro Alvares Cabral'],
         resposta: 2
     },
     {
