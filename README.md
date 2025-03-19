@@ -19,4 +19,4 @@ Fernanda Borges - Desenvolveu a parte front-end
 
 ## 🔮 Deploy
 
-Teste aqui o Quiz: https://caleb-falcao.github.io/Quiz-de-perguntas/
+Teste aqui o Quiz: [https://caleb-falcao.github.io/Quiz-de-perguntas/](https://caleb-falcao.github.io/ProjetoJS-Quiz-de-Questoes-Array-Objeto/)
